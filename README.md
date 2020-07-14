@@ -10,4 +10,11 @@ M. Faessler, D. Falanga, and D. Scaramuzza, "Thrust Mixing, Saturation, and Body
 ### QuadrotorSim.m
 This file contains a set of algorithms and equations transcribed from the Robotics and Perception Group's theory papers. The algorithms calculate the drone's movement and describe it using either euler angles, a quaternion, and a rotation matrix. The algorithms can convert between the three and also model the quadrotor drone.
 ## Hardware
-The main computer used for the quadrotor is Odroid Xu4
+The main computer used for the quadrotor is an Odroid Xu4 show below.
+![Odroid](/Images/IMG_4231.HEIC)
+
+The Odroid was booted with an eMMC running Ubuntu Mate 18.04. On it, ROS Melodic and Gazebo9 were installed to be able to run simulations and handle the code for when the drone is built. 
+
+The flight controller used for the drone was a Lumenier F4 AIO which was soldered to an XT60 wall adapter as a subsitute for 3s LiPo battery for home use.
+![Flight Controller](/Images/IMG_2046.HEIC)
+![Soldering](/Images/IMG_7479.HEIC)
